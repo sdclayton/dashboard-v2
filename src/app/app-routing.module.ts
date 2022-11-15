@@ -8,6 +8,8 @@ import { SignupComponent } from './signup/signup.component';
 import { TasksComponent } from './tasks/tasks.component';
 
 const routes: Routes = [
+// Localhost:4200
+  {path: '', component: SignupComponent, pathMatch: 'full'},
   { path: 'tasks', component: TasksComponent},
   { path: 'habits', component: HabitsComponent},
   { path: 'calendar', component: CalendarComponent},

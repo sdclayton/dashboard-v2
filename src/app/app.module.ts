@@ -23,7 +23,7 @@ import { SignupComponent } from './signup/signup.component';
     AppComponent,
     TasksComponent,
     HabitsComponent,
-    CalendarComponent,
+    // CalendarComponent,
     FormTaskComponent,
     ListTasksComponent,
     NavbarComponent,
